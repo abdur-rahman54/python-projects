@@ -12,4 +12,6 @@ def is_leap_year(year):
 	else:
 		print('{} Year is not a leap year'.format(year))
 		
-is_leap_year(2000)
+
+year = int (input("Write a year: "))
+is_leap_year(year)
