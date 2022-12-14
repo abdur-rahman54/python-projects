@@ -22,4 +22,6 @@ def generate_qrcode(text):
 	img = qr.make_image(fill_color = "black", back_color = "white")
 	img.save("qrimg.png")
 
+
+#version 1.0
 generate_qrcode("This is a QR code.")
